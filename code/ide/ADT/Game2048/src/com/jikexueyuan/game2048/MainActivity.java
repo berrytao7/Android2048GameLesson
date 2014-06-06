@@ -1,11 +1,20 @@
 package com.jikexueyuan.game2048;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
+	
+	//test-----------------
+	
+	public MainActivity(Context context){
+		
+		System.out.println("test------------------");
+		
+	}
 	
 	public MainActivity() {
 		mainActivity = this;
